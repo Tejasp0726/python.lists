@@ -1,0 +1,18 @@
+list=["Lion","Tiger", "Elephant", "Fox", "Wolf"]
+print(list)
+list.append("lioness")
+print(list)
+list.insert(2,"Leopard")
+print(list)
+print(len(list))
+list.remove("Elephant")
+print(list)
+elements=[45,75,86,25,35,90]
+print(len(elements))
+print(elements[1:4]) 
+print(elements[:4]) 
+print(elements[2:])  
+print(elements[::2])
+elements.reverse()
+print(sorted(elements)) 
+print(elements)
